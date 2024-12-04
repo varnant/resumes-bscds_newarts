@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Resume - Nikita </title>
+</head>
+<style>
+P
+{
+border:5px solid black
+}
+</style>
+<p>
+<body>
+  
+  <center><h1><u> RESUME </u></h1></center>
+<h3>Nikita Vikram Pisote</h3>
+<h4>Emailid:nikitapisote1312@gmail.com</h4>
+<h4>Contact no:8329711895</h4>
+<hr color="Black">
+
+<h3>
+<div style="background-color:black;color:white;padding:05px">
+<u> CARRER OBJECTIVE </u></h3>
+
+<h4> To work in a company where I can explore more, enhance my skills and also keep up the name of company. </h4>
+
+<h3><div style="background-color:black;color:white;padding:05px"><u> ACADMIC QUALIFICATION </u></h3>
+<table border = 4 width= 1000 >
+<tr>
+     <th> BSC Data science </th>
+     <th> Pune University </th>
+     <th> New arts commerce and science college </th>
+     <th> 80 </th>
+</tr>
+<tr>
+    <th> HSSC </th>
+    <th> CBSE Board </th>
+    <th>  Kendriya Vidyalaya Ahmednagar Schoool </th>
+    <th> 64% </th>
+
+</tr>
+<tr>
+    <th> SSC </th>
+    <th> CBSE Board </th>
+    <th> Kendriya Vidyalaya Ahmednagar Schoool </th>
+    <th> 70% </th>
+
+</tr>
+</table>
+
+<h3><div style="background-color:black;color:white;padding:05px"><u> STRENGHT </u></h3>
+<ul type ="square">
+<b>
+<h3>
+ <li> Good Communication skills </li>
+ <li> Focused and Confident with poistive attitude </li>
+ <li> Self Motivation </li>
+</h3>
+</b>
+</ul>
+
+<h3><div style="background-color:black;color:white;padding:0.5px"><u> EXTRA CURRICULAR ACTIVITIES </u></h3>
+<ul>
+ <b>
+ <li> Active social worker </li>
+ <li> Active participant in organizing various events </li>
+  <li> Very active public speaker </li>
+ </b>
+  
+</ul>
+
+<h3><div style="background-color:black;color:white;padding:05px"><u> PERSONAL DETAILS </u></h3>
+<ul>
+<b>
+   <li>Name : Nikita Vikram Pisote </li>
+   <li>Married : Yes </li>
+   <li> Hobbies : </li>
+                   <ul>
+                   <li> Cooking different cuisines. </li>
+                   <li> Playing  games </li>
+                   <li> Watching TV </li>
+                   </ul>
+   <li> Languages known: Marathi , English ,Hindi </li>
+   <li> Nationally : INDIAN </li>                
+</b>
+</ul>
+
+<hr color ="Black">
+<table width=80%>
+<tr>
+<td>
+<h4><u> DATE </u> :</h4>
+<h4><u> PLACE </u> : Ahmednagar </h4>
+</td>
+<td align="right">
+<h4><u>   Name </u> : Nikita </h4>
+<h3><u> Signature  </u>:</h3>
+</td>
+</tr>
+</table>
+</body>
+</p>
+</html>
