@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>Resume - Rutuja Mate </title>
+</head>
+<style>
+
+P
+{
+border:5px solid black
+}
+img{
+    width: 200px;
+    height: 200px;
+   
+border-radius: 50%;
+float:right;
+
+}  
+</style>
+</head>
+</style>
+<p>
+<body>
+  <div class:"banner">
+  <img src="photo.jpeg">
+  
+  <center><h1 style="font-size:48px;"><u> RESUME </u></h1></center>
+  
+<h3 style="font-size:40px;"><b>Rutuja Navnath Mate</b></h3>
+<h4>Email_id : rutujamate2004@gmail.com</h4>
+<h4>Contact no : 9209804727</h4> 
+<hr color="black">
+
+<h3>
+<div style="background-color:black;color:white;padding:05px">
+<u> CARRER OBJECTIVE </u></h3>
+
+<h4> Seeking opportunities to expand my skill set while delivering meaningful results for the company. </h4>
+
+<h3><div style="background-color:black;color:white;padding:05px"><u> ACADMIC QUALIFICATION </u></h3>
+<table border = 4 width= 1000 >
+<tr>
+     <th> Qulaification </th>
+     <th> School/Collage </th>
+     <th> Marks </th>
+</tr>
+<tr>
+     <th> Bsc Data Science </th>
+     <th> New arts,commerce & science college,Ahmednagar </th>
+     <th> 59.66% </th>
+</tr>
+<tr>
+    <th> HSC </th>
+    <th> Radhabai kale mahila mahavidyalaya </th>
+    <th> 66.17</th>
+
+</tr>
+<tr>
+    <th> SSC </th>
+    <th> Kai.ganpatrao mate patil vidyalaya Dongargaon </th>
+    <th> 85.20% </th>
+
+</tr>
+</table>
+<h3><div style="background-color:black;color:white;padding:05px"><u> TECHNICAL SKILLS </u></h3>
+  <ul><b>
+<li>Language: C | Python  </li>
+<li>Databases : SQL  | MYSQL | MongoDB</li>
+<li> Tools : Git  | Github</li></b>
+  
+<h3><div style="background-color:black;color:white;padding:05px"><u> STRENGHT </u></h3>
+<ul type ="square">
+<b>
+<h3>
+ <li> Adaptability  </li>
+ <li> Foucused and Confident with poistive attitude </li>
+ <li> Self Motivation </li>
+ <li> Attention to Detail </li>
+</h3>
+</b>
+</ul>
+
+<h3><div style="background-color:black;color:white;padding:0.5px"><u> EXTRA CURRICULAR ACTIVITIES </u></h3>
+<ul>
+ <b>
+ <li> Music & Dance  </li>
+ <li> Language Learning </li>
+ <li> Puzzle Solving </li>
+ </b>
+  
+</ul>
+
+<h3><div style="background-color:black;color:white;padding:05px"><u> PERSONAL DETAILS </u></h3>
+<ul>
+<b>
+   <li>Name : Rutuja Navnath Mate </li>
+   <li>Married : NO </li>
+   <li> Hobbies : </li>
+                   <ul>
+                   <li> Traveling </li>
+                   <li> Music </li>
+                   <li>  Reading </li>
+                   </ul>
+   <li> Languages known:  English | Marathi | Hindi | French</li>
+   <li> Nationally : INDIAN </li>                
+</b>
+</ul>
+
+<hr color ="black">
+<table width=80%>
+<tr>
+<td>
+<h4><u> DATE </u> :</h4>
+<h4><u> PLACE </u> : Ahmednagar </h4>
+</td>
+<td align="right">
+<h4><u>   Name </u> : Rutuja Mate</h4>
+<h3><u> Signature  </u>:</h3>
+</td>
+</tr>
+</table>
+</body>
+</p>
+</html>
