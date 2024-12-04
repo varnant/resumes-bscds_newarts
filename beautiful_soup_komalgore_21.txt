@@ -1,0 +1,38 @@
+import requests
+from bs4 import BeautifulSoup
+import mysql.connector
+
+# Function to get the title content from a website
+def get_website_title(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    return soup.title.string
+
+# Function to save data into MySQL database
+def save_to_mysql(site_name, title_content):
+    connection = mysql.connector.connect(
+        host='localhost',
+        user='root',
+        password='0987654321',
+        database='website'
+    )
+    cursor = connection.cursor()
+    cursor.execute("CREATE TABLE IF NOT EXISTS website_titles (site_name VARCHAR(255), title_content TEXT)")
+    cursor.execute("INSERT INTO website_titles (site_name, title_content) VALUES (%s, %s)", (site_name, title_content))
+    connection.commit()
+    cursor.close()
+    connection.close()
+
+# Main function
+def main():
+    site_name = input("Enter the website URL: ")
+    try:
+        title_content = get_website_title(site_name)
+        print(f"Title Content: {title_content}")
+        save_to_mysql(site_name, title_content)
+        print("Data saved to MySQL database successfully.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+if _name_ == "_main_":
+    main()
