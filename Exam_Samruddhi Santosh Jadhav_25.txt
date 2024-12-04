@@ -1,0 +1,65 @@
+import sqlite3
+import requests
+from bs4 import BeautifulSoup
+
+# Database setup
+def connect_to_database():
+    return sqlite3.connect("website_data.db")  # Creates a file-based database
+
+# Create a table if it doesn't exist
+def create_table(cursor):
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS website_data (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        website_name TEXT,
+        title_content TEXT,
+        link_text TEXT
+    )
+    """)
+
+# Insert data into the table
+def insert_data(cursor, website_name, title_content, link_text):
+    query = "INSERT INTO website_data (website_name, title_content, link_text) VALUES (?, ?, ?)"
+    cursor.execute(query, (website_name, title_content, link_text))
+
+# Main function
+def main():
+    # Accept website URL
+    website_name = input("Enter the website URL: ").strip()
+    
+    try:
+        # Fetch website content
+        response = requests.get(website_name)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Extract title and anchor tag content
+        title_content = soup.title.string if soup.title else "No title found"
+        links = [a.text.strip() for a in soup.find_all('a') if a.text.strip()]
+        link_text = ", ".join(links[:10])  # Limit to first 10 links
+        
+        # Print extracted data
+        print(f"Website Title: {title_content}")
+        print(f"First 10 Link Texts: {link_text}")
+        
+        # Store in SQLite
+        db = connect_to_database()
+        cursor = db.cursor()
+        create_table(cursor)
+        insert_data(cursor, website_name, title_content, link_text)
+        db.commit()
+        
+        print("Data successfully saved to the SQLite database.")
+        
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching the website: {e}")
+    except sqlite3.Error as err:
+        print(f"Database error: {err}")
+    finally:
+        if 'cursor' in locals():
+            cursor.close()
+        if 'db' in locals():
+            db.close()
+
+if __name__ == "_main_":
+    main()
