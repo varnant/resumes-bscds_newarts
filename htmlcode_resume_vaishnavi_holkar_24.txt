@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Resume - vaishnavi </title>
+</head>
+<style>
+P
+{
+border:5px solid black
+}
+</style>
+<p>
+<body>
+  
+  <center><h1><u> RESUME </u></h1></center>
+  
+<h3>vaishnavi sanjay holkar</h3>
+<h4>Emailid:vaishuholkar2004@gmail.com@gmail.com</h4>
+<h4>Contact no:9637675260</h4>
+<hr color="black">
+
+<h3>
+<div style="background-color:black;color:white;padding:05px">
+<u> CARRER OBJECTIVE </u></h3>
+
+<h4> To work in a company where I can explore more, enhance my skills and also keep up the name of company. </h4>
+
+<h3><div style="background-color:black;color:white;padding:05px"><u> ACADMIC QUALIFICATION </u></h3>
+<table border = 4 width= 1000 >
+<tr>
+     <th> data science </th>
+     <th> pune University </th>
+     <th> new arts commerce and science collage of ahmednagar  </th>
+     <th> Marks </th>
+</tr>
+<tr>
+     <th> B.tech </th>
+     <th> JNTUH </th>
+     <th> Nalla Narasimha Reddy Engineering College </th>
+     <th> 60% </th>
+</tr>
+<tr>
+    <th> hhc </th>
+    <th> pune state  Board </th>
+    <th> ramrov chavan nagapur College </th>
+    <th> 76% </th>
+
+</tr>
+<tr>
+    <th> SSC </th>
+    <th> State Board </th>
+    <th> madhaymik vidyalay islak nimblak Schoool </th>
+    <th> 88.40%</th>
+
+</tr>
+</table>
+
+<h3><div style="background-color:black;color:white;padding:05px"><u> STRENGHT </u></h3>
+<ul type ="square">
+<b>
+<h3>
+ <li> Good Communication skills </li>
+ <li> Foucused and Confident with poistive attitude </li>
+ <li> Self Motivation </li>
+</h3>
+</b>
+</ul>
+
+<h3><div style="background-color:black;color:white;padding:0.5px"><u> EXTRA CURRICULAR ACTIVITIES </u></h3>
+<ul>
+ <b>
+ <li> Active social worker </li>
+ <li> Active participant in organizing various events </li>
+ <li> Event Organizer of NNRG School of Engineering </li>
+ <li> Very active public speaker </li>
+ </b>
+  
+</ul>
+
+<h3><div style="background-color:black;color:white;padding:05px"><u> PERSONAL DETAILS </u></h3>
+<ul>
+<b>
+   <li>Name : vaishnavi sanjay holkar</li>
+   <li>Married : NO </li>
+   <li> Hobbies : </li>
+                   <ul>
+                   <li> Cooking different cuisines. </li>
+                   <li> Playing  chess </li>
+                   <li> Doodling drawing </li>
+                   </ul>
+   <li> Languages known: hindi,marathi, English </li>
+   <li> Nationally : INDIAN </li>                
+</b>
+</ul>
+
+<hr color ="black">
+<table width=80%>
+<tr>
+<td>
+<h4><u> DATE </u> :</h4>
+<h4><u> PLACE </u> : ahmednagar </h4>
+</td>
+<td align="right">
+<h4><u>   Name </u> : vaishnavi </h4>
+<h3><u> Signature  </u>:</h3>
+</td>
+</tr>
+</table>
+</body>
+</p>
+</html>
