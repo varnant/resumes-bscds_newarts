@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            color: #555;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .header p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dhanshri Karle</h1>
+            <p>Software Developer | Web Designer | Problem Solver</p>
+        </div>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:dhanshrikarle9@gmail.com">dhanshrikarle9@gmail.com.com</a></p>
+            <p>Phone: +123 456 7890</p>
+            <p>Website: <a href="https://example.com" target="_blank">example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Motivated and detail-oriented software developer with over 5 years of experience building scalable web applications and working on cross-functional teams. Passionate about learning new technologies and delivering high-quality solutions.</p>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Software Developer</strong> - Tech Solutions Inc. (Jan 2020 - Present)<br>
+                    <em>Location: San Francisco, CA</em><br>
+                    <ul>
+                        <li>Developed and maintained web applications using JavaScript, React, and Node.js.</li>
+                        <li>Optimized application performance, resulting in a 20% increase in load times.</li>
+                        <li>Collaborated with designers and stakeholders to implement user-friendly features.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Web Developer</strong> - Creative Web Studio (Jun 2017 - Dec 2019)<br>
+                    <em>Location: Austin, TX</em><br>
+                    <ul>
+                        <li>Designed and developed responsive websites for clients in various industries.</li>
+                        <li>Implemented SEO best practices to improve website visibility.</li>
+                        <li>Trained junior developers and interns in front-end development techniques.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Bachelor of Science in Computer Science</strong><br>
+                    University of Tech…
