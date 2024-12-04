@@ -1,0 +1,60 @@
+import requests
+from bs4 import BeautifulSoup
+import mysql.connector
+
+# Function to extract title from website
+def get_title(website_url):
+    try:
+        response = requests.get(website_url)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        return soup.title.string if soup.title else 'No title found'
+    except Exception as e:
+        print(f"Error fetching title: {e}")
+        return None
+
+# Function to store data into MySQL
+def store_into_mysql(site_name, title_content):
+    try:
+        # MySQL connection
+        connection = mysql.connector.connect(
+            host='localhost',
+            user='nehaghegade',
+            password='0208',
+            database='website'
+        )
+
+        cursor = connection.cursor()
+
+        # Create table if not exists
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS WebsiteTitles (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                site_name VARCHAR(255),
+                title_content TEXT
+            )
+        ''')
+
+        # Insert data
+        cursor.execute('''
+            INSERT INTO WebsiteTitles (site_name, title_content) VALUES (%s, %s)
+        ''', (site_name, title_content))
+
+        # Commit the transaction
+        connection.commit()
+
+        print("Data inserted successfully")
+
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+    finally:
+        if (connection.is_connected()):
+            cursor.close()
+            connection.close()
+            print("MySQL connection is closed")
+
+if __name__ == "__main__":
+    website_url = input("Enter the website URL: ")
+    title = get_title(website_url)
+
+    if title:
+        store_into_mysql(website_url, title)
