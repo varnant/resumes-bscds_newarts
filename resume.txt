@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,7 @@
             line-height: 1.6;
             color: #333;
         }
+
         .container {
             max-width: 800px;
             margin: 20px auto;
@@ -63,13 +64,13 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Dnyaneshwari Bhalekar</h1>
+            <h1>Gayatri Shinde</h1>
             <p>Software Developer | Web Designer | Problem Solver</p>
         </div>
 
         <div class="contact-info">
-            <p>Email: <a href="mailto:d.bhalekar21@gmail.com">d.bhalekar21@gmail.com</a></p>
-            <p>Phone: +91 7248928369</p>
+            <p>Email: <a href="mailto:gayatrishinde567@gmail.com">gayatrishinde567@gmail.com</a></p>
+            <p>Phone: +9588454792
             <p>Website: <a href="https://example.com" target="_blank">example.com</a></p>
             <p>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
         </div>
@@ -108,4 +109,21 @@
             <ul>
                 <li>
                     <strong>Bachelor of Science in Computer Science</strong><br>
-                    University of Tech…
+                    University of Technology, 2013 - 2017<br>
+                    <em>GPA: 3.8/4.0</em>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: JavaScript, Python, Java</li>
+                <li>Frameworks: React, Angular, Node.js</li>
+                <li>Tools: Git, Docker, Jenkins</li>
+                <li>Soft Skills: Teamwork, Problem-solving, Communication</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
